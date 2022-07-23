@@ -1,1 +1,1 @@
-# My daily update shellscript for pop-os linux distro
+# My daily update shellscript for Pop!_OS
