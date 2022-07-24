@@ -3,7 +3,7 @@ VERMELHO='\e[1;91m'
 VERDE='\e[1;92m'
 SEM_COR='\e[0m'
 #----#
-# Internet conectando?
+# Internet?
 if ! ping -c 1 8.8.8.8 -q &> /dev/null; then
   echo -e "${VERMELHO}[ERROR] - Seu computador não tem conexão com a Internet.${SEM_COR}"
   exit 1
@@ -13,7 +13,7 @@ fi
 
 upgrade_limpeza () {
   echo -e "${VERDE}[INFO] - Fazendo upgrade e limpeza...${SEM_COR}"
-  sleep 2
+  sleep 1
   sudo apt autoclean
   sudo apt clean
   sudo apt update -m
