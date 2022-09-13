@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
-VERMELHO='\e[1;91m'
-VERDE='\e[1;92m'
-SEM_COR='\e[0m'
+RED='\e[1;91m'
+GREEN='\e[1;92m'
+NO_COLOR='\e[0m'
 #----#
 # Internet?
 if ! ping -c 1 8.8.8.8 -q &> /dev/null; then
-  echo -e "${VERMELHO}[ERROR] - No internet connection.${SEM_COR}"
+  echo -e "${RED}[ERROR] - No internet connection.${NO_COLOR}"
   exit 1
 else
-  echo -e "${VERDE}[INFO] - Internet connection verified.${SEM_COR}"
+  echo -e "${GREEN}[INFO] - Internet connection verified.${NO_COLOR}"
 fi
 
-upgrade_limpeza () {
-  echo -e "${VERDE}[INFO] - Upgrading and cleaning...${SEM_COR}"
+upgrade_cleaning () {
+  echo -e "${GREEN}[INFO] - Upgrading and cleaning...${NO_COLOR}"
   sleep 1
   sudo apt autoclean
   sudo apt clean
@@ -26,4 +26,4 @@ upgrade_limpeza () {
 }  
 
 #----# Execução
-upgrade_limpeza
+upgrade_cleaning
