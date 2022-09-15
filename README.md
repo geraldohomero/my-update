@@ -6,6 +6,6 @@ Run:
 
 Copy the `update.sh` file into the `/.local/bin/`
 
-Then
+- Then
 
 Just run `update` on the terminal 
