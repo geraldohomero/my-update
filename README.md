@@ -1,6 +1,6 @@
 # My daily update shellscript for Pop!_OS
 
-Run: 
+- Run: 
 
 `./update.sh`
 
