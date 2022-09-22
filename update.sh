@@ -22,7 +22,7 @@ upgrade_cleaning () {
   sudo apt full-upgrade
   sudo apt autoremove -y 
   sudo flatpak update
-  #atualiza flatpaks
+  #upgrades flatpaks
 }  
 
 #----# Execução
