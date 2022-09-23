@@ -3,7 +3,9 @@ RED='\e[1;91m'
 GREEN='\e[1;92m'
 NO_COLOR='\e[0m'
 #----#
+
 # Internet?
+
 if ! ping -c 1 8.8.8.8 -q &> /dev/null; then
   echo -e "${RED}[ERROR] - No internet connection.${NO_COLOR}"
   exit 1
