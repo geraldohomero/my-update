@@ -25,6 +25,8 @@ upgrade_cleaning () {
   sudo apt autoremove -y 
   flatpak update
   #upgrades flatpaks
+  #flatpak repair --user
+  #flatpak remove --unused
 }  
 
 #----# Execução
