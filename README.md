@@ -1,25 +1,6 @@
 # My daily update shellscript for Pop!_OS
 
 ```bash
-
-geraldohomero
-/
-my-update
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-my-update/update.sh
-@geraldohomero
-geraldohomero add comments on flatpak
- 1 contributor
-33 lines (29 sloc)  672 Bytes
 #!/usr/bin/env bash
 RED='\e[1;91m'
 GREEN='\e[1;92m'
