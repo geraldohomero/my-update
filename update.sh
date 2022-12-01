@@ -4,6 +4,7 @@ GREEN='\e[1;92m'
 NO_COLOR='\e[0m'
 #----#
 
+
 # Internet?
 
 if ! ping -c 1 8.8.8.8 -q &> /dev/null; then
