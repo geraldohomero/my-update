@@ -29,6 +29,5 @@ upgrade_cleaning () {
   #flatpak remove --unused
 }  
 
-
 #----# Execução
 upgrade_cleaning
