@@ -24,10 +24,10 @@ upgrade_cleaning () {
   sudo apt install -f
   sudo apt full-upgrade
   sudo apt autoremove -y 
+  #upgrades, repair and remove unused flatpaks
   flatpak update
-  #upgrades flatpaks
-  #flatpak repair --user
-  #flatpak remove --unused
+  flatpak repair --user
+  flatpak remove --unused
 }  
 
 #----# Execução
