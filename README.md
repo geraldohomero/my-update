@@ -26,8 +26,8 @@ upgrade_cleaning () {
   sudo apt install -f
   sudo apt full-upgrade
   sudo apt autoremove -y 
-  flatpak update
   #upgrades flatpaks
+  flatpak update
   #flatpak repair --user
   #flatpak remove --unused
 }  
@@ -35,12 +35,13 @@ upgrade_cleaning () {
 #----# Execução
 upgrade_cleaning
 ```
-- Run: 
+### Run: 
 
 `./update.sh`
 ***
-Copy the `update.sh` file into the `/.local/bin/`
 
-- Then
+Create alias for the `./update`
 
-Just run `update` on the terminal 
+>`nano ~/.bash_aliases` - You need to have `.bash_aliases` on your `home` directory or just copy and paste the following to your .bashrc
+
+>`alias update='./update.sh'`
