@@ -15,7 +15,6 @@ fi
 
 upgrade_cleaning () {
   echo -e "${GREEN}[INFO] - Upgrading and cleaning...${NO_COLOR}"
-  sleep 1
   sudo apt autoclean
   sudo apt clean
   sudo apt update -m
