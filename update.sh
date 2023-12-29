@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 RED='\e[1;91m'
 GREEN='\e[1;92m'
 NO_COLOR='\e[0m'
