@@ -1,4 +1,4 @@
-# My daily update shellscript for Pop!_OS
+# My daily update shellscript for Pop!_OS 22.04 LTS
 
 ```bash
 #!/usr/bin/env bash
